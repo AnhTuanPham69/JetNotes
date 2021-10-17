@@ -2,7 +2,7 @@
 Demo Build App Kotlin
 
 <p align="center">
-  <img src="https://ibb.co/xq1Jnwsv" width="100%" alt="accessibility text">
+  <img src="https://ibb.co/xq1Jnws" width="100%" alt="accessibility text">
 </p>
 <hr>
 <p>
