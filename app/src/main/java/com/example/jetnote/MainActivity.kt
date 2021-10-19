@@ -38,39 +38,6 @@ class MainActivity : AppCompatActivity() {
     setContent{
       NotesScreen(viewModel=viewModel)
     }
-//    setContent {
-//      JetNotesTheme {
-//        val coroutineScope= rememberCoroutineScope()
-//        val scaffoldState: ScaffoldState= rememberScaffoldState()
-//
-//        Scaffold(
-//          scaffoldState = scaffoldState,
-//          topBar = { MyTopAppBar(scaffoldState = scaffoldState, scope = coroutineScope) },
-//          drawerContent = {
-//            AppDrawer(currentScreen= Screen.Notes,
-//              closeDrawerAction={
-//                coroutineScope.launch {
-//                  scaffoldState.drawerState.close()
-//                }
-//              }
-//            )
-//          },
-//          content = {
-//            Notes()
-//
-//          },
-//          floatingActionButton = {
-//            FloatingActionButton(
-//              onClick = {
-//
-//              }
-//            ) {
-//              Text("+")
-//            }
-//          },
-//        )
-//      }
-//    }
 
   }
 }

@@ -88,14 +88,6 @@ private fun NoteList(
                     .heightIn(min = 64.dp)
                     .background(Color.White, backgroundShape)
             ) {
-//                NoteColor(
-//                    modifier=Modifier
-//                        .align(Alignment.CenterVertically)
-//                        .padding(start = 16.dp,end = 16.dp),
-//                    color= Color.Yellow,
-//                    size = 40.dp,
-//                    border = 1.dp
-//                )
                 ColorItem(color= item.color,onColorSelect = {})
                 Column(
                     modifier= Modifier

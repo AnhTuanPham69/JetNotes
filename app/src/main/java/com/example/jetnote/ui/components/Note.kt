@@ -45,7 +45,7 @@ fun Notes(){
         ) {
 
             Text(
-                text = "Hoang Trung Quan",
+                text = "Pham Anh Tuan",
                 maxLines = 1,
                 color=Color.Black,
                 style = TextStyle(

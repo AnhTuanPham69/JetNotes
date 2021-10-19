@@ -63,11 +63,6 @@ fun ColorItem(
             .clickable(onClick = { onColorSelect(color) })
     ){
         NoteColor(modifier=Modifier.padding(10.dp),color = Color.fromHex(color.hex), size = 40.dp, border =2.dp )
-//        Text(
-//            text = color.name,
-//            fontSize = 22.sp,
-//            modifier = Modifier.padding(16.dp).align(Alignment.CenterVertically)
-//        )
     }
 }
 
